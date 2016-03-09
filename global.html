@@ -1,0 +1,26 @@
+<html>
+<head>
+<!--
+Modified from sci-hub-fy
+LVT - Hanoi - 9/3/2016
+Version 0.1
+-->
+<script>
+// http://www.flaticon.com/free-icon/pointing-rith_109628#
+function performCommand(event) {
+
+    if ( event.command == "get" ) {
+    	var sci_hub = ".sci-hub.io";
+        var currentUrl = safari.application.activeBrowserWindow.activeTab.url;
+		var arr_url = currentUrl.split('/');
+		arr_url[2] = arr_url[2] + sci_hub;
+		var rUrl = arr_url.join('/');
+		console.log('Redirecting' + currentUrl + 'to' + rUrl);
+        safari.application.activeBrowserWindow.activeTab.url = rUrl;
+    }
+}
+
+safari.application.addEventListener("command", performCommand, true);
+</script>
+</head>
+</html>
