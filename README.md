@@ -17,4 +17,4 @@ A simple extension for safari web browser to access papers
 
 - Click on "Install" and enter (your Mac) password
 
-- An hand icon should appear under the menus and same row of the address input. If not, right click anywhere nearby the address input and choose "Customize Toolbar", you should see a hand icon, just drag and drop the icon to right beside address input.
+- A (![icon](icon.png)) should appear under the menus and same row of the address input. If not, right click anywhere nearby the address input and choose "Customize Toolbar", you should see a hand icon, just drag and drop the icon to right beside address input.
