@@ -3,7 +3,9 @@ A simple extension for safari web browser to access papers
 
 # How to install
 
-- Clone this repos to your computer: `git clone https://github.com/thanhleviet/sci-hub.git`
+- Clone this repos to somewhere on your computer: `git clone https://github.com/thanhleviet/sci-hub.git` . You will have a folder called sci-hub
+
+- Rename the folder to sci-hub.safariextension
 
 - From Safari menu, access Preferences
 
