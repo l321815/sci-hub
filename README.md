@@ -20,6 +20,7 @@ A simple extension for safari web browser to access papers
 - Click on "Install" and enter (your Mac) password
 
 - A (![icon](icon.png)) should appear under the menus and same row of the address input. If not, right click anywhere nearby the address input and choose "Customize Toolbar", you should see a hand icon, just drag and drop the icon to right beside address input.
-*!* : The extension will be discarded when you quit safari. I am sorry for this issue as the extention does not have apple developer certificate (that cost $99). Just use for fun.
+
+**!** : The extension will be discarded when you quit safari. I am sorry for this issue as the extention does not have apple developer certificate (that cost $99). Just use for fun.
 ###Disclaimer
 This extension is made for educational purpose. I have no responsibilities nor connection with the sci-hub.
