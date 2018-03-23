@@ -10,7 +10,7 @@ Version 0.1
 function performCommand(event) {
 
     if ( event.command == "get" ) {
-    	var sci_hub = ".sci-hub.io";
+    	var sci_hub = ".sci-hub.tw";
         var currentUrl = safari.application.activeBrowserWindow.activeTab.url;
 		var arr_url = currentUrl.split('/');
 		arr_url[2] = arr_url[2] + sci_hub;
